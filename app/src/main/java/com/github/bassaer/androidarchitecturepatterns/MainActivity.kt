@@ -1,4 +1,4 @@
-package com.github.bassaer.android_architecture_patterns
+package com.github.bassaer.androidarchitecturepatterns
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity

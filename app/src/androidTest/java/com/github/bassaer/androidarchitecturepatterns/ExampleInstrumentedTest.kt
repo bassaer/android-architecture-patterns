@@ -1,4 +1,4 @@
-package com.github.bassaer.android_architecture_patterns
+package com.github.bassaer.androidarchitecturepatterns
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.github.bassaer.android_architecture_patterns", appContext.packageName)
+        assertEquals("com.github.bassaer.androidarchitecturepatterns", appContext.packageName)
     }
 }

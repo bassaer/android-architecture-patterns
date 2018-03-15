@@ -1,4 +1,4 @@
-package com.github.bassaer.android_architecture_patterns
+package com.github.bassaer.androidarchitecturepatterns
 
 import org.junit.Test
 

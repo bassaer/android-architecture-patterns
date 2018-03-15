@@ -7,7 +7,7 @@ apply plugin: 'kotlin-android-extensions'
 android {
     compileSdkVersion 26
     defaultConfig {
-        applicationId "com.github.bassaer.android_architecture_patterns"
+        applicationId "com.github.bassaer.androidarchitecturepatterns"
         minSdkVersion 15
         targetSdkVersion 26
         versionCode 1
