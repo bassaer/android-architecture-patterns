@@ -115,8 +115,9 @@ class TasksRepository(
     private fun refreshCache(tasks: List<Task>) {
         cachedTasks.clear()
         tasks.forEach {
-
+            cacheAndPerform(it){}
         }
+        cacheIsDirty = false
     }
 
     private fun refreshLocalDataSource(tasks: List<Task>) {
